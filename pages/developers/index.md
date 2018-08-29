@@ -1,4 +1,4 @@
-## PAGES ROOT Documentation 📚
+## Documentation 📚
 
 The Fashionunited platform connects your website or application with the worldwide fashion conversation happening on Fashionunited.
 

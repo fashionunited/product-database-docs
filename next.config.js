@@ -1,2 +1,2 @@
-const withMdxDocs = require('next-mdx-docs')()
-module.exports = withMdxDocs()
+const withMdxDocs = require("next-mdx-docs")();
+module.exports = withMdxDocs();
