@@ -1,7 +1,11 @@
+export { default as theme } from '../../theme'
+
 ---
+
 title: FashionUnited for Websites
 layout: page
 path: "/docs/fashionunited-for-websites"
+
 ---
 
 Fashionunited for Websites is a suite of embeddable widgets, buttons, and client-side scripting tools to integrate Fashionunited and display jobs on your website or JavaScript application, including Embedded Jobs.
@@ -41,26 +45,26 @@ _Remove the filters which are not needed._
 
 ### Attributes
 
-* data-locales: Comma separated list of locales to be displayed, all meteor job board locales if ommitted
+- data-locales: Comma separated list of locales to be displayed, all meteor job board locales if ommitted
 
-* data-category: Name of category to be displayed, possible values:
+- data-category: Name of category to be displayed, possible values:
 
-  * "Design & Creative",
-  * "Internships",
-  * "Other",
-  * "Product & Supply Chain",
-  * "Retail Management & In-store",
-  * "Sales & Marketing"
+  - "Design & Creative",
+  - "Internships",
+  - "Other",
+  - "Product & Supply Chain",
+  - "Retail Management & In-store",
+  - "Sales & Marketing"
 
-* data-profile_id: mongodb \_id of the profile to be displayed
+- data-profile_id: mongodb \_id of the profile to be displayed
 
-* data-keywords: keywords to filter on (same as you would type it in the search field in the meteor job board)
+- data-keywords: keywords to filter on (same as you would type it in the search field in the meteor job board)
 
-* data-limit: number of jobs to be displayed (default is 10)
+- data-limit: number of jobs to be displayed (default is 10)
 
-* data-skip: number of jobs to be skipped (for pagination)
+- data-skip: number of jobs to be skipped (for pagination)
 
-* data-component: which component to use when displaying jobs:
-  * "CompanyJobs": show the jobs for an external company page (default).
-  * "HomePageJobs": show jobs for our home pages.
-  * "SearchJobs": add a search box to the CompanyJobs.
+- data-component: which component to use when displaying jobs:
+  - "CompanyJobs": show the jobs for an external company page (default).
+  - "HomePageJobs": show jobs for our home pages.
+  - "SearchJobs": add a search box to the CompanyJobs.
